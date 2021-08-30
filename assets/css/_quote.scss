@@ -1,0 +1,36 @@
+
+.quote {
+  background-color: #2b0140;
+}
+
+.quote__icon {
+  width: 20%;
+  color: #fff;
+  position: relative;
+  top: 1rem;
+  font-family: $caveat;
+  font-size: 2rem;
+  font-weight: 400;
+  background-image: url('@/assets/images/site/icons/classic.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  height: 10.7rem;
+  padding: 2%;
+}
+
+.quote__text {
+  text-align: center;
+  padding: 0 2%;
+  font-family: "Bad Script", Sans-serif;
+  font-size: 1.7rem;
+  font-weight: 400;
+  color: #fff;
+}
+.black{
+  color: #000;
+}
+.qblack {
+  color: #000;
+}

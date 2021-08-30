@@ -1,0 +1,93 @@
+.stages__title {
+  text-align: center;
+  padding: 5%;
+  font-family: $bad;
+  font-size: 2.666666666666667rem;
+  font-weight: 600;
+}
+
+.stages__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.stage__item {
+  width: 50%;
+  padding: 0 2rem 3rem;
+  position: relative;
+  padding-left: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.stage__icon {
+  position: absolute;
+  top: 0;
+  left: 1.666666666666667rem;
+  z-index: 1;
+  width: 6rem;
+}
+
+.arrow {
+  width: 2.3rem;
+  top: -1rem;
+}
+
+.stage__title {
+  margin-bottom: 3%;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+
+.it {
+  top: 10%;
+  font-size: 1.37rem;
+}
+
+.stage__text {
+  font-size: 1.066666666666667rem;
+  font-weight: 400;
+  color: #000;
+  text-align: justify;
+}
+
+.stage__item-after {
+  left: 40%;
+  position: relative;
+}
+
+.stand {
+  font-family: $bad;
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 60%;
+  padding-left: 4rem;
+}
+
+.it__text {
+  font-size: 1.066667rem;
+  text-align: justify;
+  font-weight: 400;
+  font-family: $roboto;
+  text-indent: 2rem;
+  line-height: 2;
+}
+.video-stage {
+  display: block;
+  font-family: $roboto;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5; 
+  padding: 0;
+}
+.video-benefits{
+    display: block;
+    font-family: $roboto;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 0 15%;
+}

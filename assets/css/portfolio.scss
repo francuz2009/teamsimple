@@ -1,0 +1,135 @@
+.portfolio {
+  background-color: $dark;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio__inner {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio__item {
+  width: 33%;
+  position: relative;
+  background-color: #fff;
+  margin: 0 1rem;
+  padding: 1rem 0;
+}
+.portfolio__img{
+  width: 100%;
+}
+
+.item__inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.image {
+  overflow: hidden;
+  height: 17rem;
+}
+
+.item__img {
+  overflow: hidden;
+  max-width: 100%;
+  height: auto;
+  transition: all 1s ease-out;
+}
+
+.item__img:hover {
+  transform: scale(1.1);
+}
+
+.item__text {
+  padding: 0 3rem;
+  margin: 0.3rem 0;
+  font-size: 1.066666666666667rem;
+  text-align: center;
+}
+
+.item__header {
+  font-size: 1.533333333333333rem;
+
+  margin: 1rem 0;
+}
+
+.custom-btn {
+  color: #fff;
+  width: 130px;
+  height: 40px;
+  padding: 10px 25px;
+  
+  font-weight: 500;
+  background: transparent;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.portfolio-btn {
+  color: $dark;
+  position: relative;
+  right: 11%;
+  bottom: 20px;
+  border: none;
+  width: 130px;
+  height: 40px;
+  line-height: 40px;
+  -webkit-perspective: 230px;
+  perspective: 230px;
+}
+
+.portfolio-btn span {
+  display: block;
+  position: absolute;
+  width: 10rem;
+  height: 3rem;
+  border: 1px solid #2b0140;
+  box-shadow: 0 0 5px #2b0140, 0 0 5px #2b0140 inset;
+  margin: 0;
+  font-size: 1.3rem;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.portfolio-btn span:nth-child(1) {
+  box-shadow: 0 0 5px #2b0140, 0 0 5px #2b0140 inset;
+  -webkit-transform: rotateX(90deg);
+  -moz-transform: rotateX(90deg);
+  transform: rotateX(90deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+
+.portfolio-btn span:nth-child(2) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+  -webkit-transform-origin: 50% 50% -20px;
+  -moz-transform-origin: 50% 50% -20px;
+  transform-origin: 50% 50% -20px;
+}
+
+.portfolio-btn:hover span:nth-child(1) {
+  -webkit-transform: rotateX(0deg);
+  -moz-transform: rotateX(0deg);
+  transform: rotateX(0deg);
+}
+
+.portfolio-btn:hover span:nth-child(2) {
+  background: #fff;
+  color: #fff;
+  box-shadow: 0 0 5px $dark,  0 0 5px $dark inset;
+  -webkit-transform: rotateX(-90deg);
+  -moz-transform: rotateX(-90deg);
+  transform: rotateX(-90deg);
+}

@@ -1,0 +1,54 @@
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.about__item {
+  width: 50%;
+  padding: 3rem;
+  display: flex;
+}
+
+.about__item--border {
+  background-image: linear-gradient(#00b988 33%, #61ce7014 0%);
+  background-position: right;
+  background-size: 0.2rem 1rem;
+  background-repeat: repeat-y;
+  height: 40vh;
+}
+
+.about__content {
+  padding-left: 1.3333333rem;
+  z-index: 2;
+}
+
+.about__img {
+  display: inline-block;
+  height: 9rem;
+  margin-top: 15%;
+  z-index: 2;
+}
+
+.about__title {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.about__text {
+  font-size: 1.06666666667rem;
+  font-weight: 300;
+  line-height: 1.3em;
+  letter-spacing: 0.5px;
+}
+
+.about__textp {
+  font-size: 1.06666666667rem;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0.5px;
+  margin: -3rem 2rem;
+}

@@ -1,0 +1,238 @@
+	.footer {
+	  background-color: #1B0028;
+	  padding: 4rem 0px;
+	}
+
+	.footer__inner {
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: space-between;
+	  align-items: center;
+	  padding: 0 2rem;
+	}
+
+	.footer__logo {
+	  width: 30%;
+	  width: 150px;
+	  height: 150px;
+	  vertical-align: middle;
+	  display: inline-block;
+	  max-width: 100%;
+	  border: none;
+	}
+
+	.footer__contacts {
+	  width: 30%;
+	  align-content: flex-start;
+	  align-items: flex-start;
+	}
+
+	.contacts__list {
+	  color: #fff;
+	  line-height: 2.3;
+	  padding-left: 0px;
+	}
+
+	.contacts__text {
+	  text-decoration: none;
+	  padding-left: 0.9333333333rem;
+	  font-size: 1rem;
+	  font-weight: 600;
+	  text-transform: uppercase;
+	  color: #fff;
+	  transition: 0.25s linear;
+
+	  &:hover {
+	    color: #00b988;
+	  }
+	}
+.footer__social {
+  width: 10%;
+
+  height: 100%;
+  line-height: 3;
+}
+
+.fas {
+  color: $green;
+  font-size: 1.1rem;
+}
+
+.footer__social-list {
+  padding-left: 0px;
+}
+
+.footer__social-icon {
+  margin: 1rem 0;
+  position: relative;
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  text-align: center;
+  line-height: 3rem;
+  background: #1B0028;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.footer__social-icon:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #00b988;
+  transition: 0.5s;
+  transform: scale(0.9);
+  z-index: -1;
+}
+
+.footer__social-icon:hover:before {
+  transform: scale(1.2);
+  box-shadow: 0 0 1rem #00b988;
+  filter: blur(3px);
+}
+
+.footer__social-icon:hover {
+  color: #00b988;
+  box-shadow: 0 0 1rem #00b988;
+  text-shadow: 0 0 1rem #00b988;
+}
+
+	/*Обратная связь футер*/
+	.form__section {
+	  padding: 0 2rem;
+	}
+
+	.footer__callback {
+	  width: 30%;
+	}
+
+	.contact-form__title {
+	  color: #fff;
+	  text-align: center;
+	}
+
+	.contact-form__input {
+	  width: 100%;
+	  border: none;
+	  padding: 0.6rem;
+	  margin-bottom: 0.7333333333333333rem;
+
+	  border: none;
+	  border-bottom: 0.2rem solid #00b988;
+	  background-color: transparent;
+	  color: inherit;
+	  outline: none;
+	  color: #fff;
+	  transition: all 0.5s;
+
+	  &:focus {
+	    color: #fff;
+	  }
+
+	  &:focus-within {
+	    transform: scale(1.05, 1.05);
+	  }
+	}
+
+	.contact-form__btn {
+	  text-transform: uppercase;
+	  cursor: pointer;
+	  font-size: 1rem;
+	  position: relative;
+	  background-color: #00b988;
+	  border: none;
+	  color: #fff;
+	  padding: 0.5rem;
+	  width: 13.4rem;
+	  text-align: center;
+	  transition-duration: 0.4s;
+	  overflow: hidden;
+	  box-shadow: 0 0.33333rem 1rem #193047;
+
+	  left: 18%;
+
+	  &:hover {
+	    background: #fff;
+	    box-shadow: 0px 0.3rem 0.6666666666666667rem 0.333333333333rem #1abc9c;
+	    color: #000;
+	  }
+
+	  &:after {
+	    content: "";
+	    background: #00b988;
+	    display: block;
+	    position: absolute;
+	    padding-top: 300%;
+	    padding-left: 350%;
+	    margin-left: -1.333333333333333rem !important;
+	    margin-top: -120%;
+	    opacity: 0;
+	    transition: all 0.8s;
+	  }
+	}
+
+	::-webkit-input-placeholder {
+	  /* WebKit browsers */
+	  font-family: $roboto;
+	  color: #00b988bb;
+	}
+
+	:-moz-placeholder {
+	  /* Mozilla Firefox 4 to 18 */
+	  font-family: $roboto;
+	  color: #00b988bb;
+	}
+
+	::-moz-placeholder {
+	  /* Mozilla Firefox 19+ */
+	  font-family: $roboto;
+	  color: #00b988bb;
+	}
+
+	:-ms-input-placeholder {
+	  /* Internet Explorer 10+ */
+	  font-family: $roboto;
+	  color: #00b988bb;
+	}
+
+	.contact-form__btn:active:after {
+	  padding: 0;
+	  margin: 0;
+	  opacity: 1;
+	  transition: 0s;
+	}
+
+	.contact-form__btn:focus {
+	  outline: 0;
+	}
+
+
+
+	.footer__after-inner {
+	  display: flex;
+	  margin-right: auto;
+	  margin-left: auto;
+	  position: relative;
+	}
+
+	.footer__after-title {
+	  width: 20%;
+	  font-family: $qwigley;
+	  font-size: 4.666666666666667rem;
+	  font-weight: bold;
+	  color: #00b988;
+	}
+
+	.footer__after-suptitle {
+	  width: 80%;
+	  color: #ffffff;
+	  font-family: $roboto;
+	  font-size: 1.066666666666667rem;
+	  font-weight: 400;
+	}

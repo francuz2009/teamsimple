@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+
+$roboto: 'Roboto',sans-serif;
+$qwigley:'Qwigley',cursive;
+$bad: 'Bad Script',cursive;
+$caveat: 'Caveat',cursive;
+$mplus: 'M PLUS Rounded 1c', sans-serif;
+
+html {
+  font-family: $roboto;
+  font-size: 15px;
+  color: dark;
+}
+body{
+  margin: 0;
+  font-family: $roboto;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+a {
+  text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  outline: 0;
+  outline-offset: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+  color: #fff;
+}
+
+hr {
+  display: block;
+  width: 100%;
+  height: 1px;
+  margin: 2.666666666666667rem 0;
+
+  border: 0;
+  background-color: #e5e5e5;
+}
+
+section {
+  padding: 0 0 3rem 0;
+  position: relative;
+}
+.container {
+  width: 100%;
+  max-width: 1260px;
+  padding: 0 1rem 1rem 1rem;
+  margin: 0 auto;
+}
+
+.section__header {
+  margin-bottom: 3.333333333333333rem;
+}
+
+.section__title {
+  font-family: $bad;
+  text-align: center;
+  font-size: 2.666666666666667rem;
+  font-weight: 600;
+  color: #333;
+
+  padding: 1.3333333rem;
+}
+
+.section__suptitle {
+  font-family: $bad;
+  font-size: 1.46666667rem;
+  text-align: justify;
+  font-weight: 500;
+  text-align: center;
+}
+
+.w {
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.gr {
+  color: $green;
+}
+.if {
+  background-color: $dark;
+}
+.cl {
+  background-color: $green;
+
+}
+
+.fa {
+  color: $green;
+  font-size: 1.466666666666667rem;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  padding-right: 0.5rem;
+  height: 1.1rem;
+}
+.btm__main-nav{
+  color: #fff;
+  font-size: 2rem;
+}
+.bottom__shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.bottom__shape svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 75px;
+  transform: rotateY(180deg);
+}
+
+.bottom__shape-fill {
+  fill: #fff;
+}
+
+.top__shape{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.top__shape svg{
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+.top__shape-fill{
+  fill: $green;
+}
+.black{
+  color: #000;
+}
+.shape__bot {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.shape__bot svg {
+  position: relative;
+  display: block;
+  width: calc(117% + 1.3px);
+  height: 5rem;
+  transform: rotateY(180deg);
+}
+
+.shape__top{
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.shape__top svg {
+  position: relative;
+  display: block;
+  width: calc(117% + 1.3px);
+  height: 5rem;
+  transform: rotateY(180deg);
+}
+.clients__fiil-top {
+  fill: #FFFFFF;
+}
+.clientsif__fiil-top {
+  fill: $green;
+}
+
+.clients__bot__shape {
+
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.clients__bot__shape svg {
+  position: relative;
+  display: block;
+  width: calc(117% + 1.3px);
+  height: 95px;
+}
+
+.clients__bot__shape-fill {
+  fill: #FFFFFF;
+}
+.services__bot__shape-fill{
+  fill: $dark;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+  
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all .2s ease;
+}
+.intro__error{
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.error__title{
+  width: 50%;
+  font-family: $caveat;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.error__btn {
+  font-family: $caveat;
+  height: 33.33%;
+  width: 40%;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+.error__text{
+  padding: 1rem 2rem;
+  font-size: 1.8rem;
+}
+

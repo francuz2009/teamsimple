@@ -1,0 +1,260 @@
+/* Intro */
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 87vh;
+  position: relative;
+
+}
+
+
+
+.intro__inner {
+  width: 100%;
+
+
+  text-align: center;
+}
+
+.intro__title {
+  color: #fff;
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.4;
+}
+
+.intro__suptitle:after {
+  content: "";
+  display: block;
+  width: 4rem;
+  height: 3px;
+  margin: 2rem auto;
+
+  background-color: #fff;
+}
+
+.intro__suptitle {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.47rem;
+  color: #fff;
+}
+
+/* Button */
+.intro__btn {
+  height: 33.33%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+.btn__box {
+  background-color: #2b0140;
+  padding: 1.5rem;
+}
+
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+}
+
+.btn1 {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  padding: 20px 40px;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 1rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn__call {
+  position: relative;
+}
+
+.btn__call:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+  transition: all 0.4s, opacity 0.1s 0.4s;
+  opacity: 0;
+}
+
+.btn__call:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  left: 0;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+  transition: all 0.4s, opacity 0.1s 0.4s;
+  opacity: 0;
+}
+
+.btn__call:hover:after,
+.btn__call:hover:before {
+  width: calc(100% + 1rem);
+  height: calc(100% + 1rem);
+  transition: all 0.4s, opacity 0.1s;
+  opacity: 1;
+}
+
+.neon_btn {
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+}
+
+#neon__btn {
+  text-align: center;
+}
+
+#neon__btn * {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#neon__btn a {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+#neon__btn a:hover {
+  background: #3be8b0;
+  color: #fff;
+  box-shadow: 0 0 5px #3be8b0, 0 0 25px #3be8b0, 0 0 50px #3be8b0,
+    0 0 200px #3be8b0;
+}
+
+#neon__btn a span {
+  position: absolute;
+  display: block;
+}
+
+#neon__btn a span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #3be8b0);
+  animation: animate1 1s linear infinite;
+}
+
+@keyframes animate1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+#neon__btn a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #3be8b0);
+  animation: animate2 1s linear infinite;
+  animation-delay: 0.25s;
+}
+
+@keyframes animate2 {
+  0% {
+    top: -100%;
+  }
+
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+#neon__btn a span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #3be8b0);
+  animation: animate3 1s linear infinite;
+  animation-delay: 0.5s;
+}
+
+@keyframes animate3 {
+  0% {
+    right: -100%;
+  }
+
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+#neon__btn a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #00b988);
+  animation: animate4 1s linear infinite;
+  animation-delay: 0.75s;
+}
+
+@keyframes animate4 {
+  0% {
+     bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+.intro__page{
+  height: 26.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro__text {
+  font-family: "Caveat",
+  Semi-bold;
+  font-size: 2.1rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 0 3rem;
+}
+.autsorsing__title {
+  font-family: "Caveat",
+  Semi-bold;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  z-index: 1;
+}

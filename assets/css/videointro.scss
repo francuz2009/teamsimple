@@ -1,0 +1,66 @@
+.videonablyudenie {
+  position: relative;
+}
+
+.videonablyudenie__inner {
+  padding: 5% 7%;
+  align-items: center;
+}
+
+.videonablyudenie__title {
+  font-family: "Caveat", Semi-bold;
+  color: #fff;
+  font-size: 3.333333333333333rem;
+  font-weight: 600;
+  text-align: center;
+  z-index: 1;
+}
+
+
+.video__intro {
+  background-color: #DDF2F1;
+}
+
+.video__intro-text {
+  padding-top: 4%;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.intro__icon {
+  padding: 0 0 0 43%;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+}
+
+.intro__text-aft {
+  font-family: "Caveat", Semi-bold;
+  font-size: 1.8rem;
+  font-weight: 400;
+
+  padding: 0 0 0 50%;
+  margin: 0;
+}
+
+.shape {
+  overflow: hidden;
+
+  left: 0;
+  width: 100%;
+  line-height: 0;
+  direction: ltr;
+
+}
+
+.shape-fill1 {
+  fill: #DDF2F1;
+}
+
+
+
+.video {
+  width: 100%;
+  
+}

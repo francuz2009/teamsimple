@@ -1,0 +1,45 @@
+.clients__table {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients__table-info {
+  border-style: dashed;
+  border-width: 0.2666666666666667rem;
+  border-color: #00b988;
+  padding: 0.3333333rem;
+  float: left;
+  width: 50%;
+  margin-right: 0.666667rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.clients__list-neg {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+
+.clients__table-after {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients__content {
+  width: 50%;
+  margin: -2rem 2rem;
+}
+
+.clients__suptitle {
+  font-family: $bad;
+  font-size: 1.46666667rem;
+  text-align: justify;
+  font-weight: 500;
+  text-align: left;
+  color: #fff;
+  margin: -1rem 3rem;
+}
+
